@@ -1,0 +1,6 @@
+package com.example.deneme.Utils;
+
+public class Warnings {
+    public static String internetProblemText="İnternet bağlantınızı kontrol ediniz";
+
+}

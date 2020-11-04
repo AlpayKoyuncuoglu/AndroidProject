@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#76FF03"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:id="@+id/sanalKarneLayout"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/check"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Pet Sanal Karne"
+                        android:textColor="#1e2329"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/next"
+
+                        app:civ_border_color="#0D1019"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#76FF03"
+
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/asiTakipLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:gravity="center"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/calendar"
+                        app:civ_border_color="#f2ffff"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Pet Aşı Takibi"
+                        android:textColor="#1e2329"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/next"
+
+                        app:civ_border_color="#0D1019"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+
+                app:cardBackgroundColor="#76FF03"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/petlerimLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+
+                        android:layout_height="70dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/pet"
+
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Petlerim"
+                        android:textColor="#1e2329"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/next"
+                        app:civ_border_color="#0D1019"
+
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+
+                app:cardBackgroundColor="#76FF03"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/sorusorlinearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="2"
+
+                        android:background="#C6FF00"
+                        android:src="@drawable/question"
+
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Soru Sor"
+                        android:textColor="#1e2329"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/next"
+                        app:civ_border_color="#0D1019"
+
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+
+                app:cardBackgroundColor="#76FF03"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/cevapLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+
+                        android:src="@drawable/answer"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Cevaplar"
+                        android:textColor="#1e2329"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/next"
+
+                        app:civ_border_color="#0D1019"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+
+                app:cardBackgroundColor="#76FF03"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/kampanyaLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+
+                        android:src="@drawable/campaign"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Kampanyalar"
+                        android:textColor="#1e2329"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="2"
+                        android:background="#C6FF00"
+                        android:src="@drawable/next"
+
+                        app:civ_border_color="#0D1019"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

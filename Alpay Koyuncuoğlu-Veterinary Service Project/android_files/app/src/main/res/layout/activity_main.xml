@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/anasayfalinearlayout"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="4dp">
+
+        <FrameLayout
+            android:id="@+id/mainFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/anasayfalinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/anasayfaButon"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="3"
+            android:background="@drawable/home"
+            android:text="anasayfa" />
+
+        <ImageView
+            android:id="@+id/aramaYapButon"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="3"
+
+            android:background="@drawable/call"
+            android:text="arama yap" />
+
+        <ImageView
+            android:id="@+id/cikisYap"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="3"
+            android:background="@drawable/cross"
+            android:text="arama yap" />
+    </LinearLayout>
+</RelativeLayout>
