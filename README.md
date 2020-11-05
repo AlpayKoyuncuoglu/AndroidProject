@@ -10,4 +10,4 @@ project was written in PHP. On the mobile side, Android Studio was used as an ID
 developed with Java.
 
 You can find the video I recorded for the promotion of the project here;
-httpswww.youtube.comwatchv=BRKJZ-sD5aM&t=9s
+https://www.youtube.com/watch?v=BRKJZ-sD5aM&t=9s
